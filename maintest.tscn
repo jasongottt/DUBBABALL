@@ -35,8 +35,8 @@ main_camera = NodePath("ball/Camera2D")
 
 [node name="background" type="Sprite2D" parent="."]
 modulate = Color(0.752941, 0.839216, 1, 0.45098)
-position = Vector2(584, 338)
-scale = Vector2(24.9857, 13.9597)
+position = Vector2(584, 372.004)
+scale = Vector2(24.9857, 15.3198)
 texture = ExtResource("2_j0wof")
 region_enabled = true
 region_rect = Rect2(472.8, 335.6, 46.4, 50.4)
