@@ -1,13 +1,12 @@
 extends RigidBody2D
 @export var gone = false;
-var start_pos = Vector2(796,456)
+@export var start_pos = Vector2(796,456)
 
 func _ready():
 	pass
 	
 func _physics_process(delta):
 	pass
-		
 func _process(delta):
 	if Input.is_action_just_pressed("space") && gone:
 		print("yurrr")
